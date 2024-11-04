@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Legends Hub</title>
+    <link rel="stylesheet" href="proj3.css">
+    <script defer src="proj3.js"></script>
+</head>
+<body>
+   
+    <header class="navbar">
+        <h1>Cricket Legends Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#players">Players</a></li>
+                <li><a href="#map">Interactive Map</a></li>
+                <li><a href="#matches">Top Matches</a></li>
+                <li><a href="#fan-zone">Fan Zone</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="section home">
+        <h2>Welcome to Cricket Legends Hub!</h2>
+        <p>Explore the world of cricket through the lives and achievements of the greatest players from around the globe.</p>
+        <div class="featured-players">
+            <img src="c:\Users\DELL\Desktop\player1.jpeg" alt="Player 1">
+            <img src="c:\Users\DELL\Desktop\player2.jpeg" alt="Player 2">
+        </div>
+    </section>
+
+    
+    <section id="players" class="section players">
+        <h2>Player Profiles</h2>
+        <div class="player-profile">
+            <img src="c:\Users\DELL\Desktop\player1.jpeg" alt="Player 1">
+            <h3>Player 1</h3>
+            <p><strong>Achievements:</strong> 10,000+ runs, 100+ wickets.</p>
+            <p><strong>Career Stats:</strong> Matches: 300 | Runs: 15,000 | Wickets: 200</p>
+        </div>
+        <div class="player-profile">
+            <img src="c:\Users\DELL\Desktop\player2.jpeg" alt="Player 2">
+            <h3>Player 2</h3>
+            <p><strong>Achievements:</strong> World Cup Winner, Best Captain Award.</p>
+            <p><strong>Career Stats:</strong> Matches: 200 | Runs: 12,000 | Wickets: 50</p>
+        </div>
+    </section>
+
+    
+    <section id="map" class="section map">
+        <h2>Interactive Player Map</h2>
+        <p>Click on a marker to see the player from that location!</p>
+        <div id="map-container">
+            <img src="c:\Users\DELL\Desktop\world.jpeg" alt="World Map" class="world-map">
+        </div>
+    </section>
+
+   
+    <section id="matches" class="section matches">
+        <h2>Top Cricket Matches</h2>
+        <div class="match">
+            <h3>India vs Pakistan - 2011 World Cup</h3>
+            <p>An unforgettable semi-final clash that had fans on the edge of their seats!</p>
+            <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/sK00MXb8hQw" 
+                    title="India vs Pakistan Highlights" 
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    
+    <section id="fan-zone" class="section fan-zone">
+        <h2>Fan Zone</h2>
+        <form id="fanForm">
+            <p>Who is your favorite player?</p>
+            <input type="text" id="playerName" placeholder="Enter player name" required>
+            <button type="submit">Submit</button>
+        </form>
+        <h3>Fan Submissions:</h3>
+        <ul id="fanSubmissions"></ul>
+    </section>
+
+</body>
+</html>
